@@ -2,7 +2,8 @@
 
 The next Mars Rover is being developed, and we need you to come up with a simple way of
 issuing navigation instructions to it from back on Earth!
----
+
+
 ## Instructions
 We would like you to model the following.
 ### Part 1: Basic Movement
@@ -20,7 +21,10 @@ We would like you to model the following.
 ### Part 3: Putting it all together
    Output all the instructions and moves carried out by the rover to get from one grid square to
    another. The output can take any form e.g rows of text, JSON data, or something graphical. 
----
+
+## How to run
+Go to the root of the folder and type ```sbt run``` in the terminal to run the project
+
 ## Thoughts
 
 Assumption is that: I give the rover instructions one by one, after it's done it would tell me it's position
